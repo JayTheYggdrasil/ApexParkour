@@ -15,6 +15,7 @@ A collection of Apex Legends parkour maps for R5Reloaded.
 * Use J to go to the current checkpoint
 * Use K to go to the next checkpoint
 * Use L to go to the previous checkpoint
+6. Use Noclip when practicing, it's super pog. You can bind noclip by typing 'bind key noclip'. I recommend binding something really easy to press, I use lctrl. 
 
 Currently you have to navigate between checkpoints manually, we'll add automatic checkpoint tracking sometime soon hopefully.
 ## Walkthrough/Guide
