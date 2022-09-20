@@ -10,7 +10,7 @@ A collection of Apex Legends parkour maps for R5Reloaded.
 1. Download the `mp_rr_desertlands_common.nut`
 2. Place the file in `<R5BaseFolder>\platform\scripts\vscripts\mp\levels`
 3. Host a server and select 'mp_rr_desertlands_64k_x_64k'
-4. For teleport commands, open the console with ~ and run `bind j cpTeleport; bind k cpAdd; bind l cpSub; cpTeleport`
+4. For teleport commands, open the console with `~` or `insert` and run `bind j cpTeleport; bind k cpAdd; bind l cpSub; cpTeleport`
 * Use J to go to the current checkpoint
 * Use K to go to the next checkpoint
 * Use L to go to the previous checkpoint
