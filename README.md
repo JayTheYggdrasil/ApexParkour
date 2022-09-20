@@ -7,7 +7,7 @@ A collection of Apex Legends parkour maps for R5Reloaded.
 
 ## Installation
 
-1. Download the <a href="https://github.com/JayTheYggdrasil/ApexParkour/releases/download/First-Release/mp_rr_desertlands_common.nut">mp_rr_desertlands_common.nut </a>
+1. Download the <a href="https://github.com/JayTheYggdrasil/ApexParkour/releases/download/v1.1/mp_rr_desertlands_common.nut">mp_rr_desertlands_common.nut </a>
 2. Place the file in `<R5BaseFolder>\platform\scripts\vscripts\mp\levels`
 * Make sure to replace the existing file
 4. Host a server and select 'mp_rr_desertlands_64k_x_64k' or 'worlds edge'
