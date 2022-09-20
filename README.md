@@ -7,6 +7,7 @@ A collection of Apex Legends parkour maps for R5Reloaded.
 
 ## Installation
 CURRENTLY INCOMPATIBLE WITH FLOWSTATE AIM TRAINER
+
 0. Download map editing scripts and follow instructions https://github.com/mostlyfireproof/scripts_r5 (temporary solution to aim trainer breaking map, uninstalls aim trainer though you can redownload later)
 1. Download the `mp_rr_desertlands_common.nut`
 2. Place the file in `<R5BaseFolder>\platform\scripts\vscripts\mp\levels`
