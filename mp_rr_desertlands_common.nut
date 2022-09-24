@@ -624,7 +624,7 @@ void function SetEditorTargetName1( entity ent, string name )
 
 void function _CheckPoints_Init()
 {
-	#if SERVER && R5DEV
+	#if SERVER
 	AddClientCommandCallback( "cpTeleport", ClientCommand_TeleportToCurrentCp )
 	AddClientCommandCallback( "cpAdd", ClientCommand_AddOneToCpCount )
 	AddClientCommandCallback( "cpSub", ClientCommand_SubtractOneToCpCount)
