@@ -6,8 +6,8 @@ struct {
 	#if SERVER
 		table<entity, bool> noclip_state = {}
 		
-		array<vector> panel_pos = [<-12672.9,2111.98,12262.4>, <-21184,3519.08,14367.6>, <-18752.5,-4735.15,13518.1>, <-15551.8,-511.981,13395>, <-14912,3903.37,12957.2>]
-		array<vector> panel_ang = [<0,-90,0>, <0,45,0>, <0,180,0>, <0,90,0>, <0,0,0>]
+		array<vector> panel_pos = [<-12672.9,2111.98,12262.4>, <-21184,3519.08,14367.6>, <-21184,3519.08,14367.6>, <-18752.5,-4735.15,13518.1>, <-15551.8,-511.981,13395>, <-14912,3903.37,12957.2>]
+		array<vector> panel_ang = [<0,-90,0>, <0,45,0>, <0,45,0>, <0,180,0>, <0,90,0>, <0,0,0>]
 	#endif
 } file
 
@@ -62,7 +62,7 @@ void function yggdrasil_player_init( entity player ) {
 void function yggdrasil_init() {
 	AddCallback_OnClientConnected( yggdrasil_player_init )
 
-	for(int i=0; i<5; i+=1){
+	for(int i=0; i<6; i+=1){
 		yggdrasil_create_panel(file.panel_pos[i], file.panel_ang[i], "Complete Section" )
 	}
 
@@ -401,7 +401,6 @@ CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-20672,3008,14144>,<0,-90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-19648,2111,14080.1>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-19775,1983.84,14080.1>,<0,90,0>, true, 8000) 
-// CreateEditorProp( $"mdl/props/global_access_panel_button/global_access_panel_button_console_w_stand.rmdl",<-21184,3519.08,14367.6>,<0,45,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-20160.2,3008.92,14080.3>,<0,180,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-20673,2496.03,14080.1>,<0,-90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-20160,3007.01,13784.1>,<0,0,0>, true, 8000) 
@@ -777,7 +776,6 @@ CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-20672,3008,14144>,<0,-90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-19648,2111,14080.1>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-19775,1983.84,14080.1>,<0,90,0>, true, 8000) 
-// CreateEditorProp( $"mdl/props/global_access_panel_button/global_access_panel_button_console_w_stand.rmdl",<-21184,3519.08,14367.6>,<0,45,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-20160.2,3008.92,14080.3>,<0,180,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-20673,2496.03,14080.1>,<0,-90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-20160,3007.01,13784.1>,<0,0,0>, true, 8000) 
@@ -899,7 +897,6 @@ CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-188
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-18688,-4543.01,13640.1>,<0,180,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-18624.9,-4479.53,13640.1>,<0,-90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-18625,-4351.73,13640.1>,<0,-90,0>, true, 8000) 
-// CreateEditorProp( $"mdl/props/global_access_panel_button/global_access_panel_button_console_w_stand.rmdl",<-18752.5,-4735.15,13518.1>,<0,180,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-15488,-2176,13326>,<0,90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-15361,-2176.05,13325.9>,<0,-90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-15615,-2175.98,13325.8>,<0,90,0>, true, 8000) 
@@ -969,7 +966,6 @@ CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-15488,-512,13380>,<0,-90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-15488,-640.983,13379.8>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-15617,-512.129,13380>,<0,-90,0>, true, 8000) 
-// CreateEditorProp( $"mdl/props/global_access_panel_button/global_access_panel_button_console_w_stand.rmdl",<-15551.8,-511.981,13395>,<0,90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-15744.1,-640.668,13395.3>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-15743.8,1152.65,13449.3>,<0,-135,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-15679.9,1216.92,13449.6>,<0,-135,0>, true, 8000) 
@@ -1029,7 +1025,6 @@ CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-150
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_256x256_01.rmdl",<-14784,3967.07,12937.6>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-15040,4032,12938>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x256_06.rmdl",<-14784,4032,12938>,<0,0,0>, true, 8000) 
-// CreateEditorProp( $"mdl/props/global_access_panel_button/global_access_panel_button_console_w_stand.rmdl",<-14912,3903.37,12957.2>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-14464.1,2111.13,12699.5>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-14336.2,2111.18,12699.5>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-13632,2111.06,12379.7>,<0,0,0>, true, 8000) 
@@ -1068,9 +1063,10 @@ CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-138
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-13824.8,2240.56,12955.9>,<0,-45,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-14335.5,2112.88,13019.9>,<0,180,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-14463.6,2112.92,13019.8>,<0,180,0>, true, 8000) 
-// CreateEditorProp( $"mdl/props/global_access_panel_button/global_access_panel_button_console_w_stand.rmdl",<-12672.9,2111.98,12262.4>,<0,-90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x128_06.rmdl",<-14719.9,2111.2,12873.4>,<0,0,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x128_06.rmdl",<-14783.2,2176,12873.4>,<0,90,0>, true, 8000) 
+CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-15423.8,1472.96,13695.8>,<0,-135,0>, true, 8000) 
+CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-15488.2,1408.91,13695.6>,<0,-135,0>, true, 8000) 
 	
 		
 		break // DON'T REMOVE
