@@ -1067,6 +1067,8 @@ CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x128_06.rmdl",<-
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_ceiling_256x128_06.rmdl",<-14783.2,2176,12873.4>,<0,90,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-15423.8,1472.96,13695.8>,<0,-135,0>, true, 8000) 
 CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-15488.2,1408.91,13695.6>,<0,-135,0>, true, 8000) 
+CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-15744.4,1152.84,13759.6>,<0,-135,0>, true, 8000) 
+CreateEditorProp( $"mdl/thunderdome/thunderdome_cage_wall_128x352_04.rmdl",<-15680.4,1216.85,13759.7>,<0,-135,0>, true, 8000) 
 	
 		
 		break // DON'T REMOVE
