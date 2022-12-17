@@ -6,8 +6,8 @@ struct {
 	#if SERVER
 		table<entity, bool> noclip_state = {}
 		
-		array<vector> panel_pos = [<-12672.9,2111.98,12262.4>, <-21184,3519.08,14367.6>, <-21184,3519.08,14367.6>, <-18752.5,-4735.15,13518.1>, <-15551.8,-511.981,13395>, <-14912,3903.37,12957.2>]
-		array<vector> panel_ang = [<0,-90,0>, <0,45,0>, <0,45,0>, <0,180,0>, <0,90,0>, <0,0,0>]
+		array<vector> panel_pos = [<-12672.9,2111.98,12262.4>, <-21184,3519.08,14367.6>, <-18752.5,-4735.15,13518.1>, <-15551.8,-511.981,13395>, <-14912,3903.37,12957.2>]
+		array<vector> panel_ang = [<0,-90,0>, <0,45,0>, <0,180,0>, <0,90,0>, <0,0,0>]
 	#endif
 } file
 
@@ -62,7 +62,7 @@ void function yggdrasil_player_init( entity player ) {
 void function yggdrasil_init() {
 	AddCallback_OnClientConnected( yggdrasil_player_init )
 
-	for(int i=0; i<6; i+=1){
+	for(int i=0; i<5; i+=1){
 		yggdrasil_create_panel(file.panel_pos[i], file.panel_ang[i], "Complete Section" )
 	}
 

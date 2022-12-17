@@ -9,7 +9,9 @@ This map requires the flowstate scripts, see: https://github.com/ColombianGuy/r5
 2. Locate your R5Reloaded installation and put the map file in the /platform/scripts/vscripts folder, replacing the existing file.
 3. To start a match, select the map editor playlist and use world's edge as the map
 
-Video guide on it if you're having trouble: ...Coming Soon...
+### Alternative instructions:
+
+Video guide by Bloo Baroo: ...Coming Soon...
 
 ## Walkthrough/Demonstration
 
