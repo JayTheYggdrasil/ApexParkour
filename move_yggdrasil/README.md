@@ -11,7 +11,7 @@ This map requires the flowstate scripts, see: https://github.com/ColombianGuy/r5
 
 ### Alternative instructions:
 
-Video guide by Bloo Baroo: ...Coming Soon...
+Video guide by Bloo Baroo: https://youtu.be/8kzQMLjnoyo
 
 ## Walkthrough/Demonstration
 
